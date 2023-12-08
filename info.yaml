@@ -36,34 +36,34 @@ documentation:
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
-    - ui_in[7] not used
-    - ui_in[6] not used
-    - ui_in[5] not used
-    - ui_in[4] not used
-    - ui_in[3] not used
-    - ui_in[2] not used
-    - ui_in[1] not used
-    - ui_in[0] not used
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
-    - uo_out[7] not used
-    - uo_out[6] not used
-    - uo_out[5] not used
-    - uo_out[4] not used
-    - uo_out[3] showing count value (MSB)
-    - uo_out[2] showing count value
-    - uo_out[1] showing count value
-    - uo_out[0] showing count value (LSB)
+    - count value (LSB)
+    - count value
+    - count value
+    - count value (MSB)
+    - not used
+    - not used
+    - not used
+    - not used
 # A description of what the bidirectional I/O pins do (e.g. I2C SDA, I2C SCL, etc)
   bidirectional:
-    - uio[7] not used
-    - uio[6] not used
-    - uio[5] not used
-    - uio[4] not used
-    - uio[3] not used
-    - uio[2] not used
-    - uio[1] not used
-    - uio[0] not used
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
 
 # The following fields are optional
   tag:          "counter"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
