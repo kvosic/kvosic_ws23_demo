@@ -23,12 +23,12 @@ module tb ();
     reg  [7:0] ui_in;
     reg  [7:0] uio_in;
 
-    wire [6:0] segments = uo_out[6:0];
+    wire [3:0] counter_out = uo_out[3:0];
     wire [7:0] uo_out;
     wire [7:0] uio_out;
     wire [7:0] uio_oe;
 
-    tt_um_seven_segment_seconds tt_um_seven_segment_seconds (
+    tt_um_kvosic_counter ctr0 (
     // include power ports for the Gate Level test
     `ifdef GL_TEST
         .VPWR( 1'b1),
@@ -45,3 +45,4 @@ module tb ();
         );
 
 endmodule
+
